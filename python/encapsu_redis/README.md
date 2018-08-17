@@ -2,7 +2,9 @@
 
 
 
-**Structure**
+
+
+### **Structure**
 
 ​	1、url.py   解析http、socket字符串. 必须
 
@@ -14,9 +16,9 @@
 
 
 
-**Usage**
 
-​	`
+
+### **Usage**
 
 ```
 from redis_channel import RedisChannel
@@ -27,6 +29,4 @@ x = channel.client
 
 x.sadd('what', 'the fuck')
 ```
-
-`
 
